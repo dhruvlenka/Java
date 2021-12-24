@@ -1,12 +1,13 @@
 public class IfElseLadder {
     public static void main(String[] args) {
-        int salary = 180000;
-        if (salary < 100000) {
-            System.out.println("You can get 5 Lakhs Loan.");
-        } else if (salary >= 100000 ) {
-            System.out.println("You can get 25 Lakhs Loan.");
-        } else {
-            System.out.println("You can't get Loan.");
+        int number = 21;
+        if(number > 0){
+        System.out.println("Positive");
         }
+        else if(number < 0){
+            System.out.println("Negative");
+        }
+        else
+        System.out.println("Zero");
     }
 }
