@@ -1,4 +1,4 @@
-public class ConituneProgram {
+public class ContinueProgram {
     public static void main(String[] args) {
         int i = 1;
         while(i<15) {
