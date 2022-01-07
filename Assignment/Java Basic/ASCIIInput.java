@@ -6,8 +6,8 @@ public class ASCIIInput {
         System.out.print("Enter a Character = ");
         char c = input.next().charAt(0); //D
 
-        int number  = c;
-        System.out.println(number);
+        int ascii  = c;
+        System.out.println(ascii);
         
     }
 }
