@@ -12,7 +12,7 @@ public class DefaultConstructor {
 class employee {
     int id = 79;
     String name = "Dhruv";
-    int age = 36;
+    int age = 29;
     String bloodGroup = "O+";
     String address = "Bhopal, Madhya Pradesh, India";
 }
