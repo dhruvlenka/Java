@@ -1,5 +1,5 @@
 //Try without cat and finally.
-public class Try {
+public class TryWithoutCatchtFinally {
     public static void main(String[] args) {
         try {
             int marks = 50/0;
