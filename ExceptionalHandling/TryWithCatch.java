@@ -1,5 +1,5 @@
 //Handling Exception with the help of Catch 
-public class TryWithCatFin {
+public class TryWithCatch{
     public static void main(String[] args) {
         try {
             int marks = 50/0;
