@@ -1,0 +1,25 @@
+package com.dhruvlenka;
+class worker{
+    void hr(){
+        System.out.println("Pairing");
+    }
+}
+class twisting extends worker{
+    void hr(){
+        System.out.println("Twisting");
+    }
+}
+class taping extends worker{
+    void hr(){
+        System.out.println("Taping");
+    }
+}
+
+public class Polymorphism {
+    public static void main(String[] args) {
+         twisting vikas = new twisting();
+         vikas.hr();
+         taping diljeet = new taping();
+         diljeet.hr();
+    }
+}
