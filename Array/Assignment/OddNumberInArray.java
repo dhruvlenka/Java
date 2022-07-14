@@ -1,8 +1,22 @@
 public class OddNumberInArray {
     public static void main(String[] args) {
-        int[] odd = {1,2,3,4,5,6,7};
-        System.out.println("Odd number elements in given Array = ");
-        for (int i = 0; i < odd.length; i += 2){
-            System.out.println(odd[i] + " ");
+       int[] even = {2,4,6,1,3,5,7,9,8,10,12};
+       /*
+       for (int i = 0; i<even.length;i++){
+            if (even[i] % 2 != 0){
+                System.out.println(even[i]+ " ODD ");
+            }
+            else {
+                System.out.println(even[i]+ " EVEN ");
+            }
+        }
+        */
+        for (int j : even) {
+            if (j % 2 != 0) {
+                System.out.println(j + " ODD ");
+            } else {
+                System.out.println(j + " EVEN ");
+            }
+        }
         }
     }
