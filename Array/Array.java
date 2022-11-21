@@ -1,6 +1,4 @@
-package Arrary;
-
-public class Array {
+public class ArrayProgram {
     public static void main(String[] args) {
         //array start from 0.
         int[] arr = {21,22,28,30,35};
